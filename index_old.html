@@ -1,0 +1,94 @@
+<!--tutorials I am following:
+https://www.youtube.com/watch?v=qNifU_aQRio
+-->
+
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>HauteTechOrientale</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body class="container">
+  <script src="script.js"></script>
+  <!-- <header class="main-header"> -->
+    <!-- https://getbootstrap.com/docs/5.0/components/navbar/ -->
+      <!--main-nav is my personal css class that I created earlier in the style.css-->
+      <!--navbar is just declaring a navbar present, navbar-expand-md is to tell it to expand to the md size and then collapse?-->
+      <!--pt-5 and pb-4 are just margins and padding-->
+
+          <!-- TO BE REMOVED: bg-light (this is just so that I see what i am even doing lol) -->
+          <!-- navbar light is so that I can ACTUALLY see the toggle bars and the elements (which have to be in dark gray) -->
+          
+          <nav class="main-nav navbar navbar-expand-md sticky-top pt-5 pb-4 navbar-light bg-light">
+      <!--collapse is for hiding, -->
+      <!-- <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav"> -->
+      <div class="container container-fluid">
+        <a href="index.html" class="brand-logo navbar-brand">
+        <img class="HauteTechOrientale-Logo" class = "d-inline-block align-text-middle logo" src="images/ALL_IMAGES/HauteTechOrientale-logos/HauteTechOrientale-logos_inverted.png" alt="HauteTechOrientale Logo"></a>
+      </div>
+      
+      <!-- toggle button for mobile nav -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+
+
+<!-- ERROR SOMEWHERE HERE-->
+      <!-- navbar-nav is just a class from the Bootstrap attributes
+      Same goes for most of the other classes I added up there.
+      The rest are just classes that are present by my CSS document
+      everything between the next two dividers are going to collapse when the screen becomes too small-->
+
+      <!-- <div class="collapse navbar-collapse justify-content-end align-end" id = "main-nav"> -->
+        <!-- <ul class = "nav-fill navbar-nav me-auto"> -->
+      <!-- <div class="collapse navbar-collapse  justify-content-end align-end" id="main-nav">
+        <ul class="navbar-nav navbar nav-fill me-auto"> -->
+
+      <!-- <div>
+        <ul class="nav nav-pills nav-fill">  -->
+
+          <!--Most of the other classes, like nav-link nav-item, are just classes to indicate the nature to bootstrap-->
+
+        <!-- ERROR! Here, my links take two lines. I might just as well collapse the produits and the h6, to then increase the font of the produits, so that it onlyi takes 1 line? Or i directly find a function that makes it one line... OR there is a space between the logo and the other links that needs to be changed. -->
+          <li class = "nav-item"><a class="h6 nav-link" href="systeme_de_pdv.html">Systèmes de Point de Vente (PDV)</a></li>
+          <li class = "nav-item"><a class="h6 nav-link" href="logiciels_et_service.html" >Logiciel et Service</a></li>
+          <li class = "nav-item"><a class="h6 nav-link" href="accessoires.html">Accessoires</a></li>
+          <li class = "nav-item"><a class="h6 nav-link" href="contact.html" >Contactez-nous!</a></li>
+          <!-- <li class = "nav-item"><a class="produits nav-link" href="systeme_de_pdv.html">Systèmes de Point de Vente (PDV)</a></li>
+          <li class = "nav-item"><a class="produits nav-link" href="logiciels_et_service.html" >Logiciel et Service</a></li>
+          <li class = "nav-item"><a class="produits nav-link" href="accessoires.html">Accessoires</a></li>
+          <li class = "nav-item"><a class="produits nav-link" href="contact.html" >Contactez-nous!</a></li> -->
+        </ul>
+      </div>
+
+    
+    </nav>
+  <!-- </header>  -->
+
+
+  <h1>HauteTechOrientale</h1>
+  
+  
+  
+  <!--
+    This script places a badge on your repl's full-browser view back to your repl's cover
+    page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+    teal, blue, blurple, magenta, pink!
+  -->
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>

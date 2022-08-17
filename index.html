@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>HauteTechOrientale - Accueil</title>
+  <link rel="icon" href="images\ALL_IMAGES\HauteTechOrientale-logos\HauteTechOrientale-logos_transparent - Copy.png">
+
+  <!-- font-family: 'Lobster', cursive;
+font-family: 'Merriweather', serif;-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+  
+  <!-- Kepler Kepler Std Bold Semicondensed Display-->
+  <link rel="stylesheet" href="https://use.typekit.net/avn1dvt.css">
+  
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  
+</head>
+
+<!-- Here, I DID not set my body to container-fluid, as it creates an automatic border... -->
+<body>
+    <!-- https://getbootstrap.com/docs/5.0/components/navbar/ -->
+      <!--main-nav is my personal css class that I created earlier in the style.css-->
+      <!--navbar is just declaring a navbar present, navbar-expand-md is to tell it to expand to the md size and then collapse?-->
+      <!--pt-5 and pb-4 are just margins and padding-->
+    <nav class="main-nav navbar navbar-expand-xl sticky-top pt-2 pb-2 navbar-light">
+      <!-- Here, I wrapped my whole navigation bar with a container-xxl, which means it will expand to the maximum, the maximum being container-xxl-->
+      <div class="container-xxl">
+        <a href="index.html" class=" navbar-brand">
+        <img class="HauteTechOrientale-Logo" class = "d-inline-block align-text-middle logo" src="images/ALL_IMAGES/HauteTechOrientale-logos/HauteTechOrientale-logos_transparent.png" alt="HauteTechOrientale Logo"></a><!-- toggle button for mobile nav -->
+      
+        <!-- important! placing the button INSIDE the same div container as the image of HTO makes so that the toggle button will be on the same level when collapsed -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end align-center" id = "main-nav">
+          <ul class = "navbar-nav ms-auto">
+            <!--Most of the other classes, like nav-link nav-item, are just classes to indicate the nature to bootstrap-->
+            <li class = "nav-item single-line"><a class="list-behavior text-dark nav-link" href="systeme_de_pdv.html">Nos Systèmes de Point de Vente (PDV)</a></li>
+            <li class = "nav-item single-line"><a class="list-behavior text-dark nav-link" href="logiciels.html" >Notre Logiciel</a></li>
+            <!-- <li class = "nav-item single-line"><a class="list-behavior text-dark nav-link" href="service.html" >Notre Service</a></li> -->
+            <li class = "nav-item single-line"><a class="list-behavior text-dark nav-link" href="accessoires.html">Nos Accessoires</a></li>
+            <li class = "nav-item single-line"><a class="list-behavior text-dark nav-link" href="en_HauteTechOrientale/index_en.html">English</a></li>
+            <li class = "nav-item single-line"><a href="contact.html"><button type="button" class="default-button">Contactez-nous!</button></a></li>
+            <!-- <li class = "nav-item single-line"><a href="contact.html"><button type="button" class="btn btn-outline-success">Contactez-nous!</button></a></li> -->
+          </ul>
+        </div>
+      </div>    
+    </nav>
+  <div class="pos-background"> 
+    <div class="container">
+      <div class="row">
+        <h1 class = "title_class">Haute Tech Orientale</h1>
+      </div>
+  <!-- if i use row, then every word will be written one next to the other. If I use column, every word appears other the other words -->
+      <div class="row">
+          <h6 class="undertitle text-dark" style= "text-align: center">
+            5445 Henri-Bourassa Ouest (suite 145)  |  H4R 1B7，Montréal, Québec  |  Appelez au : <span class = "text-primary"><strong><a href="contact.html" style = "text-decoration: none;">(514) 834-3056</a></span>
+          </h6>  
+      </div>
+      <div class="row">
+        <h4 class="subtitle-right">
+          <strong class = "text-secondary">Une <span style="color:#000000">entreprise familiale</span><span style="color:#1761a5"> québécoise</span>, <br>à <span style="color:#0c5eac"> votre </span>service depuis plus de <span class = "text-dark">deux décennies</span>.</strong>
+        </h4>
+      </div>
+    </div> 
+  </div>
+
+  <!-- TODO faire comme le site web de apple et mettre chaque image pour chaque mot, ça les amène directement à la bonne page -->
+    <a href = "systeme_de_pdv.html" class = "link-image">
+      <div class="index-product1">
+        <div class = "container product-name">
+          <p> Nos <strong>systèmes de point de vente </strong> 
+            <span style = "color: #293c8b"><strong>adaptés</strong></span> à votre succès
+            <!-- the reason why I didn't put any link for the découvrir button, is that the whole BACKGROUND IMAGE is a link hahaha -->
+            <br><span  class = "links"> découvrir ></span>
+          </p>
+        </div>
+        <div class="container">
+          <p>
+              <!-- I will just put a placeholder for the image position here, so that is shows the background image instead heheh -->
+            <img src="images/ALL_IMAGES/MY_OWN_IMAGES/transparent lol.png" alt = "Nos systèmes de point de vente" height="500">
+          </p>
+        </div>
+      </div>
+    </a>
+    
+
+    <a href="logiciels.html" class = "link-image">
+      <div class="index-product2">
+        <div class="container product-name" style="text-align:end; font-size: 55px;">
+          <br>Notre <strong>logiciel</strong> 
+          <br><span style = "color: #293c8b; "><strong>versatile</strong></span>  
+          <br><span  class = "links"> découvrir > </span>
+        </div>
+      </div> 
+    </a>
+
+    <a href = "accessoires.html" class = "link-image">
+      <div class="index-product3">
+        <div class="container product-name" style="text-align:right">
+          <br>Nos <strong>accessoires</strong>  spécialisés 
+          <br>sauront combler <span style = "color: #293c8b"><strong>vos besoins</strong></span> 
+          <br>  <span class = "links"> découvrir > </span>
+        </div>
+        <div class="container">
+          <img src="images/ALL_IMAGES/MY_OWN_IMAGES/transparent lol.png" alt="Image d'un MEV">
+        </div>
+      </div> 
+    </a>
+
+  <a href = "contact.html" class = "link-image">
+    <div class="index-product4">
+      <div class="container">
+        <img src="images/ALL_IMAGES/MY_OWN_IMAGES/transparent lol.png" alt="Image d'une machine de paiement">
+        <!-- <img src="images/ALL_IMAGES/HauteTechOrientale-logos/HauteTechOrientale-logos_transparent - Copy.png" alt="Image d'un MEV"> -->
+
+      </div>
+      <div class="container product-name">
+        Notre <strong>service</strong> <span style = "color: #a70b0b">personnalisé</span> inégalé
+        <br> saura supporter <span style = "color: #293c8b"><strong>votre réussite</strong></span>
+        <br> <span class = "links" style = "text-align:center;">en apprendre plus! </span>
+        <!-- the better thing to do here to keep the height, is to go in css and set the height to 350px. So it won't collapse without me wanting to! -->
+        <img src="images/ALL_IMAGES/HauteTechOrientale-logos/HauteTechOrientale-logos_transparent - Copy.png" alt="Cash Register Logo" width="15%" height="auto">
+      </div>
+    </div>   
+  </a>
+
+    <div class="container p-5">
+      <h2 class="subheadline">Qui sommes-nous?</h2>
+      <div class="descriptions" style="text-align:start">
+        <p>Basé à <span style = "color: #a70b0b"><strong>Montréal</strong></span>, <br>
+          <span class="haute-tech-orientale-word">HauteTechOrientale</span> soutient des <span style = "color: #000000">centaines</span> de commerces ambitieux... 
+    
+          <div style="text-align:end">dans plus d'une <span style = "color: #000000fe">vingtaine</span>  de villes de <span style = "color: #293c8b">la Belle Province</span>!</div>  
+        </p>
+      </div>
+      <img src = "images\ALL_IMAGES\MY_OWN_IMAGES\Map.png" width = "100%" height = "auto" alt="Carte du Québec contenant les villes identifiées par HauteTechOrientale"/>
+    </div>
+  
+    <h5 class = "container" style = "font-size: 25px; text-align: center; margin-top: -30px;">
+      <div class = " bubble">
+        <span class = "text-secondary">Avec des clients partout au <span style="color:#1761a5">Québec</span>,
+        <br> les chances sont que <span style="color:#000000">votre région</span> pourra aussi <span style="color:#1761a5">être servie!</span>
+      </span>    
+    </div>
+    </h5>
+
+    <div class="container descriptions">
+      <p class = "text-dark" style = "font-size: 75px; font-family: 'Lobster', cursive;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAppelez au 
+        <a href = "contact.html" style = "text-align: center;">
+            <button class="default-button btn-lg " style = "font-size: 45px; padding: 15px">
+              (514) 834-3056
+            </button>
+          </a>
+        <div style = "text-align: end; font-size: 35px">
+          et <span style = "color:#0a4275"><strong>laissez-nous</strong></span> le plaisir de vous recommander <br>
+          le système qui <span style = "color:#0a4275"><strong>vous</strong></span> conviendra.
+        </div>
+      </p>
+    </div>
+   
+
+    
+  <script src="script.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+  <!-- Footer -->
+  <footer class="text-center text-white" style="background-color: #0a4275;">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.361);">
+      Copyright © 2022 - Tous droits réservés - 
+      <a class="text-white" href="index.html">HauteTechOrientale</a>
+    </div>  
+    <div class="text-center p-3" style="font-size: small; font-weight: 300; font-family: Arial, sans-serif; background-color: rgba(0, 0, 0, 0.502);">
+      À la recherche d'un ingénieur informatique pour votre site web? Contactez le (438) 765-4255 pour en savoir plus! 
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</body>
+
+</html>
