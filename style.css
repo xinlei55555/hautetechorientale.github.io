@@ -95,7 +95,7 @@ nav{
     padding-bottom: 10px;
     text-align: center;
     font-family: 'Lobster', cursive;
-    font-size: 96px;
+    font-size: 86px;
     color: #0e2378;
 }
 
@@ -156,7 +156,8 @@ nav{
     font-weight:600;
     color:#000000b6;
     text-align: right ;
-    padding: 170px;
+    padding-top: 100px;
+    padding-bottom: 170px;
 
 }
 .index-product1{
@@ -209,7 +210,7 @@ nav{
     /* background-size: 20%; */
     background-color: rgba(125, 155, 238, 0.275);
 }
-.index-product4{
+/* .index-product4{
     
     background-image: url("images/ALL_IMAGES/MY_OWN_IMAGES/person scanning card.png"); 
     background-repeat: no-repeat;
@@ -224,7 +225,7 @@ nav{
 .index-product4:hover{
     transition-duration:2s;
     background-color: rgba(255, 255, 255, 0.669);
-}
+} */
 
 
 .links{
@@ -247,7 +248,7 @@ nav{
 .bubble {
 	/* // layout */
 	position: relative;
-	max-width: 35em;	
+	max-width: 30em;	
 	/* // looks */
 	background-color: #fff;
 	padding: 1.125em 1.5em;
