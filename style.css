@@ -446,7 +446,7 @@ nav{
 }
 
 .haute-tech-orientale-word{
-    font-size: 55px;
+    font-size: 40px;
     font-family: 'Lobster', cursive;
     color: #21378d;
 }
@@ -561,7 +561,7 @@ nav{
     padding-bottom: 10px;
     text-align: left;
     font-family: 'Lobster', cursive;
-    font-size: 60px;
+    font-size: 40px;
     color: #0e2378;
 }
 
@@ -710,4 +710,15 @@ nav{
     background-color:rgba(0, 0, 0, 0.496);
     margin-bottom: -20px; /*this is to remove the little space between the fotter and the image*/
     padding-bottom: 20px;
+}
+
+/* //for the image of hautetech orientale logo */
+.hto-image{
+    /* height: 125px; */
+    width: 400px;
+}
+@media (max-width: 767px) { /* apply styles for tablets and smartphones */
+  .hto-image {
+    width: 300px; /* change the width of the image for tablets and smartphones */
+  }
 }
