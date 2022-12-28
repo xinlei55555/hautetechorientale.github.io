@@ -168,7 +168,7 @@ nav{
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: white;
-    column-count: 2;
+    /* column-count: 2; */
     
 }
 .index-product1:hover{
