@@ -147,6 +147,9 @@ nav{
     font-weight:400;
     color:#000000b6;
 }
+
+    
+
 .link-image{
     text-decoration: none;
 }
@@ -156,26 +159,46 @@ nav{
     font-weight:600;
     color:#000000b6;
     text-align: right ;
-    padding-top: 100px;
-    padding-bottom: 170px;
+    padding-top: 160px;
+    padding-bottom:160px;
 
+
+}
+@media (max-width: 767px) { /* apply styles for tablets and smartphones */
+  .product-name{
+    padding-top:50px;
+    padding-bottom:50px;
+  }
+}
+
+.index-background1{
+    background-color: white;
+}
+.index-background1:hover{
+    background-color: rgba(172, 192, 248, 0.275);
+    transition-duration:6s;
 }
 .index-product1{
     background-image: url("images/ALL_IMAGES/PDV recent images/0. All-in-one dual screen black.png"); 
     background-repeat: no-repeat;
     background-position: 90%;
-    background-size: 50%;
+    background-size: 80%;
     padding-top: 80px;
     padding-bottom: 80px;
-    background-color: white;
     /* column-count: 2; */
-    
+}
+@media(max-width:767px){
+    .index-product1{
+        /* compensates for the 30px below; */
+        padding-top:-50px;
+        height: 300px;
+    }
 }
 .index-product1:hover{
     background-image: url("images/ALL_IMAGES/PDV recent images/1. Dual Screen-profile.png"); 
     transition-duration:6s;
+
     /* background-size: 20%; */
-    background-color: rgba(172, 192, 248, 0.275);
 }
 .index-product2{
     background-image: url("images/ALL_IMAGES/MY_OWN_IMAGES/IMage\ women\ pdv.jpg");
@@ -196,19 +219,41 @@ nav{
     background-image: url("images/ALL_IMAGES/Accessories/USED_MEV_HALF.png"); 
     background-repeat: no-repeat;
     background-position: 100%;
-    background-size: 40%;
+    background-size: 60%;
     /* padding-top: 200px;
     padding-bottom: 200px; */
-    background-color: white;
     column-count: 2;
     
 }
 .index-product3:hover{
     background-image: url("images/ALL_IMAGES/Accessories/USED_MEV_HALF.png"); 
-    transition-duration: 2s;
-    background-size: 42%;
+    transition-duration: 6s;
+    background-size: 72%;
     /* background-size: 20%; */
-    background-color: rgba(125, 155, 238, 0.275);
+}
+@media(max-width:767px){
+    .index-product3{
+        /* compensates for the 30px below; */
+        padding-top:-50px;
+        height: 300px;
+    }
+}
+.product-name1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:42px;
+    font-weight:600;
+    color:#000000b6;
+    text-align: right ;
+    padding-top: 120px;
+    padding-bottom:120px;
+
+
+}
+@media (max-width: 767px) { /* apply styles for tablets and smartphones */
+  .product-name1{
+    padding-top:50px;
+    padding-bottom:50px;
+  }
 }
 .index-product4{
     background-image: url("images/ALL_IMAGES/MY_OWN_IMAGES/person scanning card.png"); 
@@ -417,14 +462,14 @@ nav{
     /* margin-left: -150px; */  
     /* padding-bottom: -100px; */
 }
-.mev-background-image{
+/* .mev-background-image{
     background-image: url("images/ALL_IMAGES/Accessories/MEV.png");
     background-size: 80% ;
     background-repeat: no-repeat;
     background-position-y: 50%;
     /* background-position-x: -150%; */
-    padding: 50px;
-}
+    /* padding: 50px; */
+/* } */
 .mev-background-2{
     height:350px;
     background-image: url("images/ALL_IMAGES/Accessories/MEV_1030\ --\ new.png");
@@ -441,7 +486,7 @@ nav{
     text-align: left;
     /* vertical-align: middle; */
     /* position: relative; */
-    padding-top: 80px;
+    padding: 20px;
     /* z-index: 1; I triedd to hide the text behind image, but it's ugly, but yea. */
     /* background-image:  */
 }
