@@ -1,4 +1,3 @@
-
 /* I also removed the class "container-fluid" from the body, as it created a small margin */
 body {
     height: 100%;
@@ -212,7 +211,7 @@ nav{
 }
 .index-product2:hover{
     transition-duration: 2s;
-    background-color: rgba(248, 185, 180, 0.471);
+    background-color: rgba(255, 234, 233, 0.471);
 
 }
 .index-product3{
@@ -300,7 +299,7 @@ nav{
 .links:hover{
     color: #00000085;
     transition-duration: 0.8s;
-    font-size: 20px;
+    font-size: 18.5px;
     border-bottom: 1px solid #0000002e;
 
 }
@@ -332,6 +331,20 @@ nav{
 	/* // looks */
 	border-bottom-color: #fff;
 	filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .1));
+}
+
+/* New bubble_srm class */
+.bubble_srm {
+	/* // layout */
+	position: relative;
+	max-width: 60%;	
+	/* // looks */
+	background-color: #e9e9e9;
+	padding: 1em 2em;
+	font-size: 1em;
+	border-radius: 1.5rem;
+    box-shadow:	0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
+	margin: auto;
 }
 
 /* !systèmes de point de vente */
